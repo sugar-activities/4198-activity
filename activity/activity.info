@@ -1,0 +1,9 @@
+[Activity]
+name = Quiz
+activity_version = 5
+host_version = 1
+service_name = org.laptop.Quiz
+icon = activity-quiz
+exec = sugar-activity activity.Activity
+mime_types = application/x-imagequiz; application/zip
+

@@ -1,0 +1,11 @@
+ How to use / write Plugins:
+ - http://wiki.laptop.org/index.php?title=XO_ImageQuiz/Plugins
+ 
+ List of Services:
+ - ImageQuiz.py, Line 37: "Hook-In Services"
+ - http://wiki.laptop.org/index.php?title=XO_ImageQuiz/Plugins#Overview
+ 
+ Services can accessed via the Class __SERVICES__
+ __SERVICES__.db.query(q)
+ __SERVICES__.db.commit(q)
+ __SERVICES__.frontend.add_menu_item(path, caption, onclick_function)
